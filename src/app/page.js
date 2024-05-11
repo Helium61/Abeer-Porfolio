@@ -11,10 +11,7 @@ export default function Home() {
   const [accordion2Open, setAccordion2Open] = useState(false);
   const [accordion3Open, setAccordion3Open] = useState(false);
   const [accordion4Open, setAccordion4Open] = useState(false);
-  const [accordion5Open, setAccordion5Open] = useState(false);
-  const [accordion6Open, setAccordion6Open] = useState(false);
-  // const [accordion7Open, setAccordion7Open] = useState(false);
-  // const [accordion8Open, setAccordion8Open] = useState(false);
+ 
   const [scrollLock, setScrollLock] = useState(false);
 
   const handleAccordion1Click = () => {
@@ -34,7 +31,7 @@ export default function Home() {
           Software Developer
         </div>
         <h2 className="text-yellow-200 text-center text-3xl font-serif">
-          Abeer Amir
+         JOHN DOE
         </h2>
         <div className="flex justify-center">
           <span className="inline-flex mt-5 items-center">
@@ -65,7 +62,7 @@ export default function Home() {
                 <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.4 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
               </svg>
             </Link>
-            <Link href="" className="ml-2 text-white">
+            <Link href="https://www.linkedin.com/in/abeer-amir/" className="ml-2 text-white">
               <svg
                 fill="currentColor"
                 stroke="currentColor"
@@ -82,6 +79,7 @@ export default function Home() {
                 <circle cx="4" cy="4" r="2" stroke="none"></circle>
               </svg>
             </Link>
+            
           </span>
         </div>
 
@@ -156,8 +154,8 @@ export default function Home() {
               {accordion1Open && (
                 <div className="accordion-content overflow-hidden transition-max-height duration-300">
                   <div className=" py-2 text-white bg-black">
-                    <Link href="https://tim-walter.vercel.app/">
-                    <p className="hover:underline">https://tim-walter.vercel.app/</p>
+                    <Link href="s">
+                    <p className="hover:underline">https://concert.Website.vercel.app/</p>
                     </Link>
                   </div>
                 </div>
@@ -193,8 +191,8 @@ export default function Home() {
               {accordion2Open && (
                 <div className="accordion-content overflow-hidden transition-max-height duration-300">
                   <div className="px-4 py-2 text-white bg-black">
-                    <Link  href="https://linda-daniella.vercel.app/">
-                    <p className="hover:underline">https://linda-daniella.vercel.app/</p>
+                    <Link  href="">
+                    <p className="hover:underline">https://personal.Website.vercel.app/</p>
                     </Link>
                   </div>
                 </div>
@@ -234,8 +232,8 @@ export default function Home() {
               {accordion3Open && (
                 <div className="accordion-content overflow-hidden transition-max-height duration-300">
                   <div className="px-4 py-2 text-white bg-black">
-                    <Link href="https://adventurers-brown.vercel.app/">
-                    <p className="hover:underline">https://adventurers-brown.vercel.app/</p>
+                    <Link href="">
+                    <p className="hover:underline">https://touring-website.vercel.app/</p>
                     </Link>
                   </div>
                 </div>
@@ -271,8 +269,8 @@ export default function Home() {
               {accordion4Open && (
                 <div className="accordion-content overflow-hidden transition-max-height duration-300">
                   <div className="px-4 py-2 text-white bg-black">
-                    <Link href="https://cccc-kappa.vercel.app/">
-                    <p className="hover:underline">https://cccc-kappa.vercel.app/</p>
+                    <Link href="">
+                    <p className="hover:underline">https://website.vercel.app/</p>
                     </Link>
                   </div>
                 </div>
